@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    position: absolute;
+}
+section { 
+    font-family: var(--Madimi);
+    max-width: 960px;
+    padding: 20px;
+    color: #AFD5AA;
+}
+article { 
+    font-family: var(--Madimi);
+    max-width: 960px;
+    padding: 20px;
+    color: #AFD5AA;
+    position: absolute;
+}
+:root {
+    --primary-color: #AFD5AA;
+    --secondary-color: #5C5346;
+    --accent1-color: #A69F98;
+    --accent2-color: #8C6057;
+
+    --heading-font: 'Madimi', sans serif;
+    --paragraph-font: 'Madimi', sans serif;
+
+    --nav-background-color: #5C5346;
+    --nav-link-color: #A69F98;
+    --nav-hover-link-color: #8C6057;
+    --nav-hover-background-color: #AFD5AA;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+.hero img {
+    display: block;
+    width: 100;
+    height: auto;
+}
+
+
