@@ -61,11 +61,22 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-
+div {
+    position: relative;
+}
 .hero img {
     display: block;
     width: 100;
     height: auto;
 }
 
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+}
+article img {
+    float: right;
 
+}
