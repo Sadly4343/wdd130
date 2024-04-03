@@ -1,23 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+* {
 
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-    position: absolute;
-}
-section { 
-    font-family: var(--Madimi);
-    max-width: 960px;
-    padding: 20px;
-    color: #AFD5AA;
-}
-article { 
-    font-family: var(--Madimi);
-    max-width: 960px;
-    padding: 20px;
-    color: #AFD5AA;
-    position: absolute;
+    max-width: 1000px;
 }
 :root {
     --primary-color: #AFD5AA;
@@ -33,50 +17,16 @@ article {
     --nav-hover-link-color: #8C6057;
     --nav-hover-background-color: #AFD5AA;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-p{
-    padding: 25px;
-}
-nav{
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
-div {
+.hero {
+    margin: 10px auto;
     position: relative;
 }
-.hero img {
-    display: block;
-    width: 100;
-    height: auto;
-}
 
-h1 {
-    position: absolute;
-}
 article {
     position: absolute;
-}
-article img {
-    float: right;
-
+    top: 0;
+    right:20;
+    opacity: 0.8; }
+h1 {
+    position: absolute;
 }
