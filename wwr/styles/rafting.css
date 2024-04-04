@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-body {
-    max-width: 2000px;
+html {
+    height: 100%;
+    display: block;
+    width: 1000px;
 }
-
+body {
+    min-height: 100%;
+}
 :root {
     --primary-color: #AFD5AA;
     --secondary-color: #5C5346;
@@ -17,11 +21,30 @@ body {
     --nav-hover-link-color: #8C6057;
     --nav-hover-background-color: #AFD5AA;
 }
-
+header :any-link {
+    text-decoration: none;
+}
 .hero {
-    margin: 10px auto;
     position: relative;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    max-width: 100%
 }
-.art {
-    position: absolute;
+article {
+    position:absolute;
+    height: 85%;
+    top: 40px;
+    right: 400px;
+
 }
+
+
+
+.brown {
+    position:absolute;
+    height: 85%;
+    width: 100%;
+    top: 0px;
+}
+
