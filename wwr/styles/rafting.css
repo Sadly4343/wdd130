@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-* {
-
-    max-width: 1000px;
+body {
+    max-width: 2000px;
 }
+
 :root {
     --primary-color: #AFD5AA;
     --secondary-color: #5C5346;
@@ -17,16 +17,11 @@
     --nav-hover-link-color: #8C6057;
     --nav-hover-background-color: #AFD5AA;
 }
+
 .hero {
     margin: 10px auto;
     position: relative;
 }
-
-article {
-    position: absolute;
-    top: 0;
-    right:20;
-    opacity: 0.8; }
-h1 {
+.art {
     position: absolute;
 }
