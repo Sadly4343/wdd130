@@ -11,7 +11,7 @@ body {
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 120px 1fr;
     align-items: center;
     max-width: 1000px;
     border-bottom: 1px solid #8f1a1a;
@@ -44,9 +44,13 @@ nav {
 .navigation {
       display: flex;
       list-style: none;
+      float: right;
+      background-color: #AFD5AA;
+    
     }
 .navigation li {
-    flex: 1 1 100%
+    flex: 1 1 100%;
+    border:#8f1a1a thick solid;
 }
 .navigation a {
     display: block;
@@ -79,7 +83,7 @@ div.heros {
     align-items: center;
     flex-wrap: nowrap;
     height: 200px;
-    background-color: #5C5346;
+    background-color:#AFD5AA;
     text-align: center;
 }
 
@@ -112,20 +116,20 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
+    max-width: 200px;
     margin: auto;
 }
 figcaption {
-    background-color: #AFD5AA;
-    color:#8f1a1a;
+    background-color:#5C5346;
+    color:aliceblue;
     padding: 3px;
     text-align: center;
 }
 .imagess {
     object-fit: contain;
     display:flex;
-    width: 220px;
-    height: 185px;
+    width: 185px;
+    height: 150px;
 
 }
 
