@@ -1,11 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-html {
-    height: 100%;
-    display: block;
-    width: 1000px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-    min-height: 100%;
+    width:1000px;
+    margin:0 auto;
+ }
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    max-width: 1000px;
+    border-bottom: 1px solid #8f1a1a;
+}
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+nav {
+    text-align: right;
+    }
+.navigation {
+      display: flex;
+      list-style: none;
+    }
+.navigation li {
+    flex: 1 1 100%
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+div.heros {
+    width:300px;
+    height: 300px;
+
 }
 :root {
     --primary-color: #AFD5AA;
@@ -21,24 +56,21 @@ body {
     --nav-hover-link-color: #8C6057;
     --nav-hover-background-color: #AFD5AA;
 }
-header :any-link {
-    text-decoration: none;
-}
-.hero {
+
+div.hero {
     position: relative;
     bottom: 0;
     top: 0;
     height: 100%;
-    max-width: 100%
+    max-width: 1000px;
 }
 article {
     position:absolute;
     height: 85%;
     top: 40px;
-    right: 400px;
+    right: 0px;
 
 }
-
 
 
 .brown {
