@@ -21,6 +21,23 @@ header {
 	width: 64px;
 	height: auto;
 }
+.history {
+    float:left;
+    margin-right: 20px;
+}
+.historyimg {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+
+
+}
+footer {
+  text-align: center;
+ height: 70px;
+ 
+}
 nav {
     text-align: right;
     }
@@ -42,6 +59,7 @@ div.heros {
     height: 300px;
 
 }
+
 :root {
     --primary-color: #AFD5AA;
     --secondary-color: #5C5346;
@@ -56,6 +74,14 @@ div.heros {
     --nav-hover-link-color: #8C6057;
     --nav-hover-background-color: #AFD5AA;
 }
+.sec1 {
+    display:flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 200px;
+    background-color: #5C5346;
+    text-align: center;
+}
 
 div.hero {
     position: relative;
@@ -69,6 +95,37 @@ article {
     height: 85%;
     top: 40px;
     right: 0px;
+
+}
+.sec2 {
+    display:flex;
+    align-items: center;
+    height: 500px;
+    width: fit-content;
+    text-align: center;
+    object-fit: contain;
+    display:block
+
+}
+figure {
+    border: thin #8f1a1a solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+figcaption {
+    background-color: #AFD5AA;
+    color:#8f1a1a;
+    padding: 3px;
+    text-align: center;
+}
+.imagess {
+    object-fit: contain;
+    display:flex;
+    width: 220px;
+    height: 185px;
 
 }
 
