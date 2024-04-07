@@ -93,14 +93,9 @@ div.hero {
     top: 0;
     height: 100%;
     max-width: 1000px;
+    text-align: center;
 }
-article {
-    position:absolute;
-    height: 85%;
-    top: 40px;
-    right: 0px;
 
-}
 .sec2 {
     display:flex;
     align-items: center;
@@ -125,15 +120,35 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+img.art-img {
+    float:right;
+
+}
+article.workers {
+    display:flex;
+    align-items: center;
+    position:absolute;
+    top: 40px;
+    right: 0px;
+    border: thick #8f1a1a solid;
+    background-color: #AFD5AA;
+ 
+
+}
 .imagess {
     object-fit: contain;
     display:flex;
     width: 185px;
     height: 150px;
-
 }
 
 
+img.heros {
+    width: 1000px;
+    height: 300px;
+
+
+}
 .brown {
     position:absolute;
     height: 85%;
