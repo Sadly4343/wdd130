@@ -34,8 +34,10 @@ header {
 
 }
 footer {
-  text-align: center;
+ text-align: center;
  height: 70px;
+ background-color: #AFD5AA;
+ border: thin #8f1a1a solid;
  
 }
 nav {
@@ -85,6 +87,7 @@ div.heros {
     height: 200px;
     background-color:#AFD5AA;
     text-align: center;
+    border:#8f1a1a solid thick;
 }
 
 div.hero {
@@ -99,11 +102,13 @@ div.hero {
 .sec2 {
     display:flex;
     align-items: center;
-    height: 500px;
-    width: fit-content;
+    height: 300px;
+    width: 1000px;
     text-align: center;
     object-fit: contain;
-    display:block
+    display:block;
+    background-color: #AFD5AA;
+    border: thick #8f1a1a solid;
 
 }
 figure {
@@ -111,8 +116,9 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 200px;
+    max-width: 195px;
     margin: auto;
+    background-color: #8f1a1a;
 }
 figcaption {
     background-color:#5C5346;
@@ -123,6 +129,10 @@ figcaption {
 img.art-img {
     float:right;
 
+}
+nav.sociallinks {
+    right:50px;
+    bottom: 0px;
 }
 article.workers {
     display:flex;
