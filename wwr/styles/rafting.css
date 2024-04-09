@@ -89,7 +89,11 @@ div.heros {
     text-align: center;
     border:#8f1a1a solid thick;
 }
+.header {
+    background-color: #AFD5AA;
 
+
+}
 div.hero {
     position: relative;
     bottom: 0;
@@ -217,6 +221,29 @@ h4 {
     flex-direction: column;
 
 }
+.Contact1 {
+    width: 400px;
+    height: 250px;
+    background-color:#AFD5AA;
+    border:#8f1a1a thick solid;
+    display: flex;
+    flex-direction: column;
+}
+.grid1 {
+    grid-template-columns: 2fr 2fr;
+    display: grid;
+    background-color: #AFD5AA;
+    border:#8f1a1a thick solid;
+}
+.grid1 img {
+    width:380px;
+    height:250px;
+}
+.homeimg {
+    width:380px;
+    height:250px;
+}
+
 .Contact p {
     text-align: center;
 }
@@ -386,6 +413,19 @@ button:hover {
     height: 700px;
     border:#8f1a1a solid 3px;
 
+}
+.wraps {
+    background-color:#AFD5AA;
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    border:#8f1a1a solid 3px;
+
+}
+.tops {
+    display: flex;
+    background-color: #AFD5AA;
 }
 .complete {
     display:flex;
