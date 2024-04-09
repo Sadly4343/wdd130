@@ -80,6 +80,7 @@ div.heros {
     --nav-hover-link-color: #8C6057;
     --nav-hover-background-color: #AFD5AA;
 }
+
 .sec1 {
     display:flex;
     align-items: center;
@@ -88,6 +89,7 @@ div.heros {
     background-color:#AFD5AA;
     text-align: center;
     border:#8f1a1a solid thick;
+    width:1000px;
 }
 .header {
     background-color: #AFD5AA;
@@ -101,6 +103,8 @@ div.hero {
     height: 100%;
     max-width: 1000px;
     text-align: center;
+    align-items: center;
+    
 }
 .flex {
     display: flex;
@@ -158,8 +162,8 @@ article.workers {
     display:flex;
     align-items: center;
     position:absolute;
-    top: 40px;
-    right: 0px;
+    top: 50px;
+    right:15px;
     border: thick #8f1a1a solid;
     background-color: #AFD5AA;
  
